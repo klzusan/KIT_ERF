@@ -1,0 +1,27 @@
+.flex-adult{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-container {
+    padding: 1em;
+    margin: 0.5em auto;
+    width: 80%;
+    text-align: center;
+}
+
+.center-container-form{
+    padding: 1em;
+    margin: 0.5em auto;
+    width: 80%;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0;
+}
