@@ -58,5 +58,10 @@
         "building": "8号館",
         "room": "0822",
         "use": ["Thu4", "Thu5", "Fri1", "Fri3", "Fri4", "Fri5"]
+    },
+    {
+        "building": "8号館",
+        "room": "8-205(PC演習室)",
+        "use": ["Mon3", "Mon5", "Tue1", "Tue3", "Tue4", "Tue5", "Wed5", "Thu4", "Thu5", "Fri3", "Fri4", "Fri5"]
     }
 ]
