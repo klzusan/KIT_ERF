@@ -40,6 +40,41 @@
         "use": ["Tue2", "Tue3", "Tue4", "Wed2", "Wed3", "Wed4", "Thu2", "Thu3", "Thu4", "Fri1", "Fri3"]
     },
     {
+        "building": "3号館",
+        "room": "0311",
+        "use": ["Mon1", "Mon2", "Mon3", "Tue3", "Tue4", "Wed2", "Wed3", "Wed4", "Thu1", "Thu2", "Thu3", "Thu4", "Fri2", "Fri3", "Fri4", "Fri5"]
+    },
+    {
+        "building": "3号館",
+        "room": "0312",
+        "use": ["Mon1", "Mon2", "Mon3", "Mon4", "Mon5", "Tue1", "Tue2", "Tue3", "Tue4", "Tue5", "Wed2", "Wed3", "Wed4", "Thu1", "Thu2", "Thu3", "Thu4", "Thu5", "Fri1", "Fri2", "Fri3", "Fri4", "Fri5"]
+    },
+    {
+        "building": "3号館",
+        "room": "0313",
+        "use": ["Mon2", "Tue1", "Tue2", "Tue5", "Wed1", "Wed2", "Wed3", "Wed4", "Wed5", "Thu1", "Thu2", "Thu3", "Thu4", "Fri1", "Fri2", "Fri3", "Fri4", "Fri5"]
+    },
+    {
+        "building": "3号館",
+        "room": "0321",
+        "use": ["Mon1", "Mon2", "Mon3", "Mon4", "Mon5", "Tue1", "Tue2", "Tue3", "Tue4", "Tue5", "Wed1", "Wed2", "Wed3", "Wed4", "Wed5", "Thu1", "Thu2", "Thu3", "Thu4", "Thu5", "Fri1", "Fri2", "Fri4", "Fri5"]
+    },
+    {
+        "building": "3号館",
+        "room": "0322",
+        "use": ["Mon2", "Mon3", "Tue3", "Wed1", "Wed3", "Wed4", "Thu1", "Thu2", "Thu3", "Thu4", "Fri2", "Fri3", "Fri4", "Fri5"]
+    },
+    {
+        "building": "3号館",
+        "room": "0323",
+        "use": ["Mon3", "Tue2", "Tue3", "Tue4", "Wed2", "Wed3", "Wed4", "Thu1", "Thu2", "Thu3", "Thu5", "Fri2", "Fri4"]
+    },
+    {
+        "building": "3号館",
+        "room": "0331",
+        "use": ["Mon2", "Mon3", "Mon4", "Mon5", "Tue2", "Tue3", "Tue4", "Tue5", "Wed1", "Wed2", "Wed3", "Wed4", "Wed5", "Thu2", "Thu3", "Thu5", "Fri1", "Fri2", "Fri3", "Fri4", "Fri5"]
+    },
+    {
         "building": "6号館",
         "room": "0611",
         "use": ["Mon2", "Mon4", "Tue1", "Tue2", "Tue3", "Tue4", "Tue5", "Wed1", "Wed2", "Wed3", "Thu1", "Thu2", "Thu3", "Thu4", "Thu5", "Fri1", "Fri2", "Fri3", "Fri4"]
