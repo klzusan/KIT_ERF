@@ -2,7 +2,7 @@ function search() {
     const day = document.getElementById("day").value;
     const period = document.getElementById("period").value;
 
-    fetch("data.json")
+    fetch("data_f.json")
         .then(response => response.json())
         .then(data => {
             const availableRooms = getAvailableRooms(data, day, period);
@@ -59,7 +59,7 @@ function displayResult(availableRooms, day, period) {
 }
 
 function day2youbi(day){
-    var trance = {Mon:'月', Tue:'火', Wed:'水', Thu:'木', Fri:'金', Sat:'土'};
+    var trance = {mon:'月', tue:'火', wed:'水', thu:'木', fri:'金', sat:'土'};
 
     return trance[day];
 }
