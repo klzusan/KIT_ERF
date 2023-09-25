@@ -2,7 +2,7 @@ function search() {
     const day = document.getElementById("day").value;
     const period = document.getElementById("period").value;
 
-    fetch("data_f.json")
+    fetch("data_s.json")
         .then(response => response.json())
         .then(data => {
             const availableRooms = getAvailableRooms(data, day, period);
