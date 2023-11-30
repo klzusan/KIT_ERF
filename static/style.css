@@ -26,14 +26,8 @@ ul{
     padding: 0;
 }
 
-#fes_countdown{
-    color: red;
-    font-size: 40px;
-    font-weight: bold;
-}
-
 #exam_countdown{
-    color: black;
+    color: red;
     font-size: 30px;
     font-weight: bold;
 }
