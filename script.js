@@ -2,7 +2,7 @@ function search() {
     const day = document.getElementById("day").value;
     const period = document.getElementById("period").value;
 
-    fetch("data_s.json")
+    fetch("data_2_2.json")
         .then(response => response.json())
         .then(data => {
             const availableRooms = getAvailableRooms(data, day, period);
@@ -65,18 +65,13 @@ function day2youbi(day){
 }
 
 function updateCountdown(){
-    const festivalDate = new Date(2023, 11-1, 24);
     const examDate = new Date(2024, 2-1, 2)
     const currentDate = new Date();
-    const festimeDifference = festivalDate - currentDate;
     const examtimeDifference = examDate - currentDate;
 
-    const fesdaysRemaining = Math.ceil(festimeDifference / (1000 * 60 * 60 * 24));
     const examdaysRemaining = Math.ceil(examtimeDifference / (1000 * 60 * 60 * 24));
 
-    const fescountdownElement = document.getElementById('fes_countdown');
     const examcountdownElement = document.getElementById('exam_countdown');
-    fescountdownElement.textContent = fesdaysRemaining;
     examcountdownElement.textContent = examdaysRemaining;
 }
 
