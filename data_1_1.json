@@ -217,6 +217,6 @@
   {
     "building": "東3号館（ダム館）",
     "room": "K303",
-    "use": [ "tue3", "tue4", "wed3", "wed4", "wed5", "thu3", "thu4", "thu5", "fri1", "fri4", ]
+    "use": [ "tue3", "tue4", "wed3", "wed4", "wed5", "thu3", "thu4", "thu5", "fri1", "fri4" ]
   }
 ]
