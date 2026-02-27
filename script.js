@@ -65,7 +65,7 @@ function day2youbi(day){
 }
 
 function updateCountdown(){
-    const examDate = new Date(2024, 7-1, 30)
+    const examDate = new Date(2026, 3-1, 10)
     const currentDate = new Date();
     const examtimeDifference = examDate - currentDate;
 
@@ -79,3 +79,4 @@ document.addEventListener('DOMContentLoaded', function(){
     updateCountdown();
     setInterval(updateCountdown, 1000);
 })
+
